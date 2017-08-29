@@ -1,0 +1,52 @@
+html {
+	background-color: #392e36;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25vh;
+	max-width: 550px;
+}
+
+.mainimg {
+	max-width: 250px;
+	float:right;
+}
+
+.nav {
+	text-align: left;
+	margin-left: 25px;
+	padding-top: 45px;
+}
+
+h1,h2 {
+	color: white;
+}
+
+h1 {
+	font-size: 35pt;
+	font-weight: 400;
+	font-family: "Oswald";
+	margin-bottom: -30px;
+}
+
+h2 {
+	font-size: 20pt;
+	font-weight: 300;
+	font-family: "Montserrat";
+	margin-top: -15px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	transition: text-decoration .5s;
+}
+
+a:hover {
+	text-decoration: underline;
+}
