@@ -163,3 +163,22 @@ p {
 	}
 }
 
+@media screen and (max-width:675px){
+  html {
+    zoom: 80%;
+  }
+
+@media screen and (max-width:550px){
+  html {
+    zoom: 60%;
+  }
+
+  @media screen and (max-width:400px){
+  html {
+    zoom: 50%;
+  }
+
+  @media screen and (max-width:350px){
+  html {
+    zoom: 40%;
+  }

@@ -54,3 +54,23 @@ a {
 h2:hover {
 	color: red;
 }
+
+@media screen and (max-width:470px){
+  html {
+    zoom: 80%;
+  }
+
+  
+}
+
+@media screen and (max-width:380px){
+  html {
+    zoom: 70%;
+  }
+}
+
+@media screen and (max-width:325px){
+  html {
+    zoom: 50%;
+  }
+}
