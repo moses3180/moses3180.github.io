@@ -41,21 +41,35 @@ h2 {
 	margin-top: -15px;
 	text-align: center;
 	color: white;
+	letter-spacing: 2px;
 
 }
 
 active {
-	text-decoration: underline;
+	color: #cc0000;
 }
 
 
 a {
 	text-decoration: none;
 	color: white;
+	border-bottom: none;
+	border-top: none;
+	padding-bottom: 1px;
+	transition: ease border-top .3s, ease border-bottom .5s;
+	-webkit-transition: ease border-top .3s, ease border-bottom .5s;
+	
+
 }
 
 a:hover {
-	text-decoration: underline;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+
+#a {
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
 }
 
 btitle {
@@ -82,7 +96,7 @@ p {
 	width: 500px;
 	height: 500px;
 	background-image: url(slides/1.jpg);
-	animation: slideshow 30s infinite;
+	animation: slideshow 40s infinite;
 }
 
 @keyframes slideshow {
