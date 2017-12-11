@@ -103,6 +103,12 @@ p {
 	margin-top: 50px;
 }
 
+.script {
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 hr {
 	width: 100%;
 	height: 5px;
@@ -173,6 +179,8 @@ hr {
 		background-image: url(slides/10.jpg)
 	}
 }
+
+
 
 @media screen and (max-width:675px){
   html {
